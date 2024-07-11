@@ -3,7 +3,7 @@
 
 int main()
 {
-    char str[100];
+    char str[101];
     gets(str);
     int i=strlen(str)-1;
     if(str[i] % 2 == 0)
