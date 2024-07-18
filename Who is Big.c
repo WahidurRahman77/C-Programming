@@ -12,7 +12,7 @@ int main()
 
     for (i = 0; i < number_of_test_case; i++)
     {
-        gets(str);
+        fgets(str);
         if (strlen(str) > strlen(longest_str))
         {
             strcpy(longest_str, str);
